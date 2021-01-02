@@ -1,0 +1,189 @@
+    /* ----------------------------------------------------------
+    :: Template Name: Karl - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Karl is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform. It's super responsive for all      Desktop/Mobile layout.
+    :: Version: 1.0
+    :: Created: 09 January 2018
+    :: Last Updated: 09 January 2018
+    ---------------------------------------------------------- */
+
+/* -------------------------------------------------
+    ============ PLACE YOUR CUSTOM CSS HERE ============
+
+       
+    ------------------------------------------------- */
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.spinner_img {
+    height: 40px;
+    text-align: center;
+    left: 14em;
+    top: 8em;
+}
+
+    .spinner_img > div {
+        background-color: #333;
+        height: 100%;
+        width: 6px;
+        display: inline-block;
+        -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+        animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    }
+
+    .spinner_img .rect2 {
+        -webkit-animation-delay: -1.1s;
+        animation-delay: -1.1s;
+    }
+
+    .spinner_img .rect3 {
+        -webkit-animation-delay: -1.0s;
+        animation-delay: -1.0s;
+    }
+
+    .spinner_img .rect4 {
+        -webkit-animation-delay: -0.9s;
+        animation-delay: -0.9s;
+    }
+
+    .spinner_img .rect5 {
+        -webkit-animation-delay: -0.8s;
+        animation-delay: -0.8s;
+    }
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4)
+    }
+
+    20% {
+        -webkit-transform: scaleY(1.0)
+    }
+}
+
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+.spinnerBlur {
+    opacity: 0.5;
+}
+
+.spinnerBody {
+    opacity: 9 !important;
+}
+
+.imgClass {
+    position: absolute !important;
+    top: 20px !important;
+    height: 170px !important;
+}
+
+.spinClas {
+    position: absolute;
+}
+/*spinners in images*/
+/*.selectedd .panel-heading{
+ background-color: #00a6f3 !important
+}*/
+
+
+
+#resizable {
+    height: 400px;
+    width: 500px;
+    padding: 5px;
+    border: 2px dashed #AAA;
+}
+/*CSS Spinner starts*/
+
+.Hgt20 {
+    height: 20px;
+}
+
+/*spinner*/
+.Erbld {
+    background: url(https://nvportalvhdslrd9x90vvxwm.blob.core.windows.net/erbuiimages/erb_loader.gif?erb15) no-repeat;
+    /* animation: loader1 2s infinite ease;*/
+    background-size: cover;
+    position: fixed;
+    z-index: 999999;
+    height: 5em;
+    width: 5em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+    /* Absolute Center Spinner */
+
+    /* Transparent Overlay */
+    .Erbld:before {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(0,0,0,0.3);*/
+        background: #eee;
+        opacity: .1;
+    }
+/*spinner*/
+/*CSS Spinner ends*/
+
+
+.flyover .alert {
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    z-index: 1050;
+}
+
+.flyover .mask {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: white;
+    z-index: 1049;
+}
+.modal-fit .modal-dialog {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px;
+}
+
+.modal-fit .modal-body {
+    max-height: calc(100vh - 200px);
+    overflow: auto;
+}
+
+
+code {
+    margin: 2em;
+    padding: 0.5em;
+    display: block;
+    background-color: #008fd5;
+    color: white;
+    opacity: 0.6;
+}

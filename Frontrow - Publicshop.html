@@ -1,0 +1,1498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html ng-app="PublicPortalApp" ng-controller="LandingPageController" lang="en-US" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <!--<base href="/">--><base href=".">
+    
+    <meta name="description" content="We are in the Business of Changing People&#39;s Lives">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Title  -->
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="expires" content="timestamp">
+    <meta http-equiv="pragma" content="no-cache">
+
+
+    <title ng-bind="&#39;Frontrow &#39; +  $state.current.title" class="ng-binding">Frontrow - Publicshop</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="https://frontrowofficial.com/Content/img/core-img/picture1_qZR_icon.ico" type="image/x-icon">
+
+    
+    <link href="./Frontrow - Publicshop_files/mapbox-gl.css" rel="stylesheet">
+
+    <link href="./Frontrow - Publicshop_files/jquery-ui.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Frontrow - Publicshop_files/util.css">
+    <link rel="stylesheet" type="text/css" href="./Frontrow - Publicshop_files/main.css">
+
+    <!-- Core Style CSS -->
+    
+    <link rel="stylesheet" href="./Frontrow - Publicshop_files/style.css">
+
+    <!-- Responsive CSS -->
+    <link href="./Frontrow - Publicshop_files/responsive.css" rel="stylesheet">
+    <link href="./Frontrow - Publicshop_files/style(1).css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" type="text/css" href="./Frontrow - Publicshop_files/animate.css">
+    <link rel="stylesheet" type="text/css" href="./Frontrow - Publicshop_files/easy-responsive-tabs.css">
+
+    <link href="./Frontrow - Publicshop_files/angular-busy.min.css" rel="stylesheet" type="text/css">
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="./Frontrow - Publicshop_files/core-style.css">
+    
+    
+    <link href="./Frontrow - Publicshop_files/bootstrap-3.3.7.min.css" rel="stylesheet">
+
+    
+    
+    <link href="./Frontrow - Publicshop_files/angular-moment-picker.min.css" rel="stylesheet">
+    
+
+    <link href="./Frontrow - Publicshop_files/angular-toastr.css" rel="stylesheet">
+    
+
+    <link href="./Frontrow - Publicshop_files/sweet-alert.css" rel="stylesheet">
+    <link href="./Frontrow - Publicshop_files/ekko-lightbox.css" rel="stylesheet">
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+             <script src="~/Content/js/html5shiv.min.js"></script>
+             <script src="~/Content/js/respond.min.js"></script>
+            <![endif]-->
+    
+
+    <script>window.prerenderReady = false;</script>
+    <!-- /.wrapper end -->
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="./Frontrow - Publicshop_files/jquery-2.2.4.min.js.download"></script>
+    <!-- Popper js -->
+    <script src="./Frontrow - Publicshop_files/popper.min.js.download"></script>
+    <!-- Bootstrap js -->
+    <script src="./Frontrow - Publicshop_files/bootstrap.min.js.download"></script>
+    <!-- Plugins js -->
+    
+    <script src="./Frontrow - Publicshop_files/plugins.min.js.download"></script>
+    <!-- Active js -->
+    
+    <script src="./Frontrow - Publicshop_files/active.min.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/date.format.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/angular-1.5.6.min.js.download"></script>
+
+    <script src="./Frontrow - Publicshop_files/angular-animate-1.5.6.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/ui-bootstrap-tpls-1.3.3.min.js.download"></script>
+    <script type="text/javascript" src="./Frontrow - Publicshop_files/angular-cookies-1.6.1.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/angular-idle.min.js.download"></script>
+
+    
+    
+    
+    
+    
+
+
+    <!-- Mainly scripts -->
+    
+    
+    
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="./Frontrow - Publicshop_files/angular-ui-router-0.2.10.min.js.download"></script>
+
+    <script src="./Frontrow - Publicshop_files/angular-busy.min.js.download"></script>
+
+    <script src="./Frontrow - Publicshop_files/ngStorage-0.3.11.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/angular-recaptcha.js.download"></script>
+
+    
+     
+
+    
+    <script src="./Frontrow - Publicshop_files/ocLazyLoad.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/angular-toastr.tpls.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/moment-with-locales.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/angular-moment-picker.min.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/rzslider.min.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/ng-map.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/ng-map-autocomplete.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/angular-http-loader.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/angular-base64-upload.js.download"></script>
+    
+
+   
+    <script src="./Frontrow - Publicshop_files/html2canvas.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/pdfmake.min.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/angular-file-saver.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/FileSaver.js.download"></script>
+
+    
+    
+    <script src="./Frontrow - Publicshop_files/mapbox-gl.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/sweet-alert.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/SweetAlert.min.js.download"></script>
+    
+    <script src="./Frontrow - Publicshop_files/clipboard.min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/ga-lite.min.js.download" async=""></script>
+    <script src="./Frontrow - Publicshop_files/date-time-format-timezone-complete-min.js.download"></script>
+    <script src="./Frontrow - Publicshop_files/ekko-lightbox.min.js.download"></script>
+
+    <script>
+        var galite = galite || {};
+        galite.UA = 'UA-XXXXXX';
+    </script>
+
+</head>
+
+<!-- uiView: mainContainer --><body ui-view="mainContainer" class="ng-scope">
+
+
+
+<div ng-http-loader="" template="example-loader.tpl.html" class="ng-scope ng-isolate-scope"><!-- ngInclude: template --><div class="http-loader__wrapper ng-scope ng-hide" ng-include="template" ng-show="showLoader">
+    <div class="flyover ng-scope">
+        <div class="mask"></div>
+        <div class="alert ">
+            <div class="loader loadersize">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+<!-- Loader template -->
+
+
+<!-- Loader template -->
+<!-- Mainly scripts -->
+
+<!-- jQuery (Necessary for All JavaScript Plugins) -->
+
+<!-- Plugins js -->
+
+<!-- Active js -->
+
+
+<script type="text/ng-template" id="example-loader.tpl.html" class="ng-scope">
+    <div class="flyover">
+        <div class="mask"></div>
+        <div class="alert ">
+            <div class="loader loadersize">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+<div ng-init="CheckCountry()" class="ng-scope"></div>
+
+<input type="button" id="back-to-top" class="goToTop ng-scope" value="Scroll Top" style="display:none;">
+
+<div id="wrapper" class="ng-scope">
+
+
+    <!-- ****** Header Area Start ****** -->
+    <header class="header_area navbar-fixed-top" set-class-when-at-top="fix-to-top">
+        <!-- Top Header Area Start -->
+        <div class="top_header_area" ng-show="isHeader ===&#39;Y&#39;">
+            <div class="container-fluid h-100">
+                <div class="row h-100 align-items-center justify-content-end">
+
+                    <div class="col-12 col-lg-7">
+                        <div class="top_single_area d-flex align-items-left">
+                            <!-- Logo Area -->
+                            <div class="top_logo">
+                                <a ui-sref="main" href="https://frontrowofficial.com/"><img src="./Frontrow - Publicshop_files/Frontrow_logo.png" alt=""></a>
+                            </div>
+                            <!-- Cart & Menu Area -->
+
+                            <div class="header-cart-menu d-flex align-items-center ml-auto" ng-show="!isLogin">
+                                <!-- Cart Area -->
+
+
+
+                                <div class="cart dropdown" uib-dropdown="" on-toggle="toggled(open)" style="margin-top: 10px;">
+                                    
+                                    <a href="https://frontrowofficial.com/" id="simple-dropdown" uib-dropdown-toggle="" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                                        <span class="cart_quantity ng-binding">0</span> 
+                                        <img src="./Frontrow - Publicshop_files/Shopping-Basket-03-512.png" width="48" class="right-icon">
+                                    </a>
+
+                                    <!-- Cart List Area Start -->
+                                    
+
+                                    <ul class="dropdown-menu cart-list" uib-dropdown-menu="" aria-labelledby="simple-dropdown" ng-show="memberShipStatus || isWhiteLabel ===&#39;Y&#39; || IsPOS===&#39;Y&#39;">
+                                        <li class="total">
+                                            <a ui-sref="cart" class="btn btn-sm btn-cart btn-white" style="text-align:center;background-color:#ff0200;" href="https://frontrowofficial.com/cart">Cart</a>
+                                        </li>
+                                        <!-- ngRepeat: cl in cartList -->
+                                        <li class="total">
+
+                                            <a ui-sref="cart" class="btn btn-sm btn-cart btn-white" style="background-color:red;" href="https://frontrowofficial.com/cart">Cart <span class="pull-right ng-binding">Total: PHP 0</span> </a>
+
+                                        </li>
+                                        
+                                        
+                                        
+                                    </ul>
+                                </div>
+                                <div id="profile" class="header-right-side-menu ml-15" style="display: none;">
+                                    
+                                    
+                                    <a ui-sref="profile({ uniqueid: userUniqueId })" ng-show="memberShipStatus" href="https://frontrowofficial.com/profile/" class="ng-hide">
+                                        <img alt="profile image" width="50" style="padding-bottom: 30px;border-radius: 50%;">
+                                        
+                                        
+
+
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Header Area End -->
+        <div class="main_header_area" id="mainshop" style="display: none;">
+            <div class="h-100">
+                <div class="row h-100">
+                    <div class="col-12 d-md-flex justify-content-between">
+
+                        <!-- ****** Cart icon Mobile View ****** -->
+                        <div class="top_single_area  d-block d-md-none pull-right">
+                            <h5 class="sales-date ng-binding ng-hide" ng-show="IsPOS==&#39;Y&#39;"></h5>
+                            <div class="header-cart-menu d-flex" style="">
+                                <!-- Cart Area -->
+                                <div class="cart dropdown" uib-dropdown="" on-toggle="toggled(open)">
+
+                                    <a href="https://frontrowofficial.com/" id="simple-dropdown" uib-dropdown-toggle="" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                                        <span class="cart_quantity ng-binding">0</span> 
+                                        <img src="./Frontrow - Publicshop_files/Shopping-Basket-03-512.png" width="48" class="right-icon">
+                                    </a>
+
+                                    <ul class="dropdown-menu cart-list" uib-dropdown-menu="" aria-labelledby="simple-dropdown" ng-show="memberShipStatus || isWhiteLabel ===&#39;Y&#39; || IsPOS===&#39;Y&#39;">
+                                        <li class="total">
+                                            <a ui-sref="cart" class="btn btn-sm btn-cart btn-white" style="text-align:center;background-color:#ff0200;" href="https://frontrowofficial.com/cart">Cart</a>
+                                        </li>
+                                        <!-- ngRepeat: cl in cartList -->
+                                        <li class="total">
+
+                                            <a ui-sref="cart" class="btn btn-sm btn-cart btn-white" style="background-color:red;" href="https://frontrowofficial.com/cart">Cart <span class="pull-right ng-binding">Total: PHP 0.00</span> </a>
+
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div id="profile" class="header-right-side-menu ml-15">
+                                    <a ui-sref="profile({ uniqueid: userUniqueId })" ng-show="memberShipStatus" href="https://frontrowofficial.com/profile/" class="ng-hide">
+                                        <img alt="profile image" width="45" style="border-radius: 50%;position: relative;top: -11px;height: 47px;">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <!-- Header Social Area -->
+                        <div class="header-social-area">
+
+                            
+                            
+                            
+
+                            
+                            <a ui-sref="main" href="https://frontrowofficial.com/"><img src="./Frontrow - Publicshop_files/Frontrow_logo.png" alt="" style="width: 250px;"></a>
+
+
+
+                        </div>
+
+                        <!-- Menu Area -->
+                        <div id="mainshoptime" role="group" class="country-left" style="display: none;">
+                            
+
+                            <button aria-expanded="false" aria-haspopup="true" class="btn btn-default ng-binding" type="button" ng-click="openCountryModal()">
+                                <div class="tooltip">Map</div>
+                                <i class="fa fa-globe fa-lg"></i>| Philippines
+                            </button>
+
+                            <span class="date_time"> <strong>PHT</strong> | <strong id="Showdate" class="ng-binding"> 5:52:57 PM </strong></span>
+
+                        </div>
+
+
+
+                        <div class="main-menu-area">
+
+
+                            <nav class="navbar navbar-expand-lg align-items-start">
+                                <button ng-click="checkCollaspe()" class="navbar-toggler" type="button" data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
+                                </button>
+                                <div class="collapse navbar-collapse align-items-start collapse" style="" id="karl-navbar" ng-controller="HeaderController">
+                                    <ul class="navbar-nav animated" id="nav">
+                                        <li class="nav-item" ng-class="{ active: isActive(&#39;/&#39;)}"><a class="nav-link" ui-sref="main" href="https://frontrowofficial.com/">Home</a></li>
+                                        <li class="nav-item" ng-class="{ active: isActive(&#39;/product&#39;)}" ng-hide="memberShipStatus || IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="product" href="https://frontrowofficial.com/product">Products</a></li>
+                                        <li class="nav-item hide" ng-class="{ active: isActive(&#39;/becomeamember&#39;)}" ng-hide="memberShipStatus || IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="becomeamember" href="https://frontrowofficial.com/becomeamember/">Become a Distributor</a></li>
+                                        
+                                        <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/shop&#39;)}" ng-show="IsPOS==&#39;Y&#39;" id="shopLink"><a class="nav-link" ui-sref="shop" href="https://frontrowofficial.com/shop">Shop</a></li>
+
+                                        <li class="nav-item dropdown" uib-dropdown="" on-toggle="toggled(open)">
+                                            <a id="reports-dropdown" class="nav-link dropdown-toggle ng-hide" ng-show="memberShipStatus" uib-dropdown-toggle="" aria-haspopup="true" aria-expanded="false">Shop</a>
+                                            <ul class="dropdown-menu p-3" uib-dropdown-menu="" aria-labelledby="reports-dropdown" style="border:1px solid #ddd">
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/shop&#39;)}" ng-show="memberShipStatus" id="shopLink"><a class="nav-link" ui-sref="shop" href="https://frontrowofficial.com/shop">Product</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/memberpackagevochersales&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="memberpackagevochersales" href="https://frontrowofficial.com/memberpackagevochersales">PKG Vouchers</a></li>
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown" uib-dropdown="" on-toggle="toggled(open)">
+                                            <a id="reports-dropdown" class="nav-link dropdown-toggle ng-hide" ng-show="IsPOS==&#39;Y&#39;" uib-dropdown-toggle="" aria-haspopup="true" aria-expanded="false">Package</a>
+                                            <ul class="dropdown-menu p-3" uib-dropdown-menu="" aria-labelledby="reports-dropdown" style="border:1px solid #ddd">
+                                                <li class="nav-item hide" ng-class="{ active: isActive(&#39;/packages&#39;)}"><a class="nav-link" ng-hide="IsPOS==&#39;Y&#39; || memberShipStatus" ui-sref="packages" href="https://frontrowofficial.com/packages">Package Purchase</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/packagevochersales&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="packagevochersales" href="https://frontrowofficial.com/packagevochersales">Package Vouchers</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        
+                                        <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/profile&#39;)}" ng-show="memberShipStatus &amp;&amp; IsPOS==&#39;N&#39;"><a class="nav-link" ui-sref="profile({ uniqueid: userUniqueId })" href="https://frontrowofficial.com/profile/">My Account</a></li>
+
+
+                                        <li class="nav-item" ng-class="{ active: isActive(&#39;/about&#39;)}" ng-hide="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="about" href="https://frontrowofficial.com/about">About</a></li>
+                                        <li class="nav-item" ng-class="{ active: isActive(&#39;/believers&#39;)}" ng-hide="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="believers" href="https://frontrowofficial.com/believers">Believers</a></li>
+                                        <li class="nav-item" ng-class="{ active: isActive(&#39;/contact&#39;)}"><a class="nav-link" ui-sref="contact" href="https://frontrowofficial.com/contact">Contacts</a></li>
+                                        <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/purchasereport&#39;)}" ng-show="isLogin &amp;&amp; !memberShipStatus &amp;&amp; IsPOS==&#39;N&#39;"><a class="nav-link" ui-sref="purchasereport" href="https://frontrowofficial.com/purchasereport">Purchase Report</a></li>
+
+                                        <li class="nav-item dropdown ng-hide" ng-show="IsPOS==&#39;Y&#39;" uib-dropdown="" on-toggle="toggled(open)">
+                                            <a id="reports-dropdown" class="nav-link dropdown-toggle" uib-dropdown-toggle="" aria-haspopup="true" aria-expanded="false">Reports/Common Task(s)</a>
+                                            <ul class="dropdown-menu p-3" uib-dropdown-menu="" aria-labelledby="reports-dropdown" style="border:1px solid #ddd">
+
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/possalesclosure&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="possalesclosure" href="https://frontrowofficial.com/possalesclosure">End of the Day</a></li>
+                                                
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/poseodreport&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="poseodreport" href="https://frontrowofficial.com/poseodreport">End of Day Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/report&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="report" href="https://frontrowofficial.com/report">Sales Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/pospkgsalesreport&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="pospkgsalesreport" href="https://frontrowofficial.com/pospkgsalesreport">PKG Sales Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/personalpickup&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="personalpickup" href="https://frontrowofficial.com/personalpickup">Personal Pickup</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/reregistration&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="reregistration" href="https://frontrowofficial.com/reregistration">Re-Registration</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/searchnewmember&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="searchnewmember" href="https://frontrowofficial.com/searchnewmember">Search for Member</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/chequedelivery&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="chequedelivery" href="https://frontrowofficial.com/chequedelivery">Cheque Delivery</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/chequecollectionreport&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="chequecollectionreport" href="https://frontrowofficial.com/chequecollectionreport">Cheque Delivery Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/reregistrationreport&#39;)}" ng-show="IsPOS==&#39;Y&#39;"><a class="nav-link" ui-sref="reregistrationreport" href="https://frontrowofficial.com/reregistrationreport">Re-Registration Report</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown ng-hide" ng-show="memberShipStatus" uib-dropdown="" on-toggle="toggled(open)">
+                                            <a id="reports-dropdown" class="nav-link dropdown-toggle" uib-dropdown-toggle="" aria-haspopup="true" aria-expanded="false">Reports</a>
+                                            <ul class="dropdown-menu p-3" uib-dropdown-menu="" aria-labelledby="reports-dropdown" style="border:1px solid #ddd">
+                                                <li class="nav-item hide ng-hide" ng-class="{ active: isActive(&#39;/drleveluserreportforpkgupgrade&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="drleveluserreportforpkgupgrade" href="https://frontrowofficial.com/drleveluserreportforpkgupgrade">Upgrade Package To Members</a></li>
+                                                    <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/earningsummaryreport&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="earningsummaryreport" href="https://frontrowofficial.com/earningsummaryreport">Earnings Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/summaryforthedayreport&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="summaryforthedayreport" href="https://frontrowofficial.com/summaryforthedayreport">Daily Summary Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/pointbreakdownreport&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="pointbreakdownreport" href="https://frontrowofficial.com/pointbreakdownreport">Points BreakDown Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/purchasereport&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="purchasereport" href="https://frontrowofficial.com/purchasereport">Purchase Report</a></li>
+                                                <li class="nav-item hide" ng-class="{ active: isActive(&#39;/unilevelbonussummaryreport&#39;)}" ng-hide="memberShipStatus"><a class="nav-link" ui-sref="unilevelbonussummaryreport" href="https://frontrowofficial.com/unilevelbonussummaryreport">Unilevel Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/unilevelpurchasereport&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="unilevelpurchasereport" href="https://frontrowofficial.com/unilevelpurchasereport">Unilevel Rewards Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/drleveluserreport&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="drleveluserreport" href="https://frontrowofficial.com/drleveluserreport">DR Level Report</a></li>
+                                                <li class="nav-item ng-hide" ng-class="{ active: isActive(&#39;/gcreport&#39;)}" ng-show="memberShipStatus"><a class="nav-link" ui-sref="gcreport" href="https://frontrowofficial.com/gcreport">GC Voucher Report</a></li>
+                                            </ul>
+                                        </li>
+
+                                        
+                                        
+                                        
+
+                                        <li class="nav-item">
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+
+                        
+                        <!-- Help Line -->
+
+                        <div class="top_single_area  d-none d-md-block">
+                            <h5 class="sales-date ng-binding ng-hide" ng-show="IsPOS==&#39;Y&#39;"></h5>
+                            <div class="header-cart-menu d-flex" style="margin-top: -8px;">
+                                <!-- Cart Area -->
+                                <div class="cart dropdown" uib-dropdown="" on-toggle="toggled(open)">
+
+                                    <a href="https://frontrowofficial.com/" id="simple-dropdown" uib-dropdown-toggle="" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                                        <span class="cart_quantity ng-binding">0</span> 
+                                        <img src="./Frontrow - Publicshop_files/Shopping-Basket-03-512.png" width="48" class="right-icon">
+                                    </a>
+
+                                    <ul class="dropdown-menu cart-list" uib-dropdown-menu="" aria-labelledby="simple-dropdown" ng-show="memberShipStatus || isWhiteLabel ===&#39;Y&#39; || IsPOS===&#39;Y&#39;">
+                                        <li class="total">
+                                            <a ui-sref="cart" class="btn btn-sm btn-cart btn-white" style="text-align:center;background-color:#ff0200;" href="https://frontrowofficial.com/cart">Cart</a>
+                                        </li>
+                                        <!-- ngRepeat: cl in cartList -->
+                                        <li class="total">
+
+                                            <a ui-sref="cart" class="btn btn-sm btn-cart btn-white" style="background-color:red;" href="https://frontrowofficial.com/cart">Cart <span class="pull-right ng-binding">Total: PHP 0.00</span> </a>
+
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div id="profile" class="header-right-side-menu ml-15">
+                                    <a ui-sref="profile({ uniqueid: userUniqueId })" ng-show="memberShipStatus" href="https://frontrowofficial.com/profile/" class="ng-hide">
+                                        <img alt="profile image" width="50" style="border-radius: 50%;position: relative;top: -8px;height: 50px;">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="help-line btn-rightb" ng-show="!isLogin">
+                            <a ui-sref="login" class="btn-white" href="https://frontrowofficial.com/login"> Login</a>
+                        </div>
+                        <!-- Help Line -->
+
+                        <div class="help-line btn-right ng-hide" ng-show="isLogin">
+                            <a href="https://frontrowofficial.com/" ng-click="logout()" class="btn-white" target="_self">Logout</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ****** Header Area End ****** -->
+    <!-- uiView: mainContentView --><div ui-view="mainContentView" class="body-top ng-scope">
+<link rel="stylesheet" type="text/css" href="./Frontrow - Publicshop_files/rzslider.min.css" class="ng-scope">
+<style class="ng-scope">
+    .header-footer, .line, .footer_bottom_area {
+        display: none;
+    }
+
+    .footer_bottomnew_area {
+        display: block;
+    }
+
+    .h5, h5 {
+        font-size: 13px;
+    }
+
+    .product-lable {
+        margin-top: 150px;
+    }
+
+    .single_gallery_item:nth-of-type(4) {
+        margin-left: -1px;
+    }
+</style>
+
+<!-- ****** Quick View Modal Area Start ****** -->
+<script type="text/ng-template" id="productModal.html" class="ng-scope">
+    
+    <div class="modal-body">
+        <input name="__RequestVerificationToken" type="hidden" value="NC7yOMz5XVgU32rWBrlVRbdO5eTXLTSvtk4vINQtC-HKhxZXdiLuYJEpfxTr4bA7Lip_Uicx1a9bbK7A7zaMxFSjD-gaCkRoxrjvhErmXZU1" />
+        <div class="quickview_body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-8">
+                        <div class="quickview_pro_img">
+                            <img src="{{productSpecificForm.productImageURL}}" alt="{{productSpecificForm.productName}}">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 mac-ml">
+                        <div class="quickview_pro_des">
+                            <h4 class="title">{{productSpecificForm.productName}}</h4>
+                            
+                            
+
+                            
+                            <h5 class="price" ng-show="{{productSpecificForm.isMember > 0}}"> DISTRIBUTOR SPECIAL PRICE: {{productSpecificForm.Currency}} {{productSpecificForm.memberprice | number: 2}}</h5>
+
+                            <h5 class="price" ng-show="{{productSpecificForm.isMember == 0}}"> SUGGESTED RETAIL PRICE(SRP): {{productSpecificForm.Currency}} {{productSpecificForm.actualprice | number: 2}}</h5>
+                            
+                            <h5 class="price" ng-show="{{productSpecificForm.promopercent > 0}}"> PROMOTION PRICE: {{productSpecificForm.Currency}} {{productSpecificForm.promoprice | number: 2}}</h5>
+
+
+                            
+                            <p>{{productSpecificForm.shortDescription}}</p>
+
+                            
+                            
+                        </div>
+                        <!-- Add to Cart Form -->
+                        <form class="cart" method="post" ng-show="isShow === 'N' || productSpecificForm.isMember == 0">
+
+                            <div class="quantity">
+                                <span class="qty-minus" ng-click="productSpecificForm.quantity > 1 ? productSpecificForm.quantity = productSpecificForm.quantity-1: productSpecificForm.quantity"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                
+                                <div class="quantity_value">{{productSpecificForm.quantity}}</div>
+                                <span class="qty-plus" ng-click="productSpecificForm.quantity >= 1 && productSpecificForm.quantity <= 99 ? productSpecificForm.quantity = productSpecificForm.quantity+1 : productSpecificForm.quantity"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <button type="button" name="addtocart" value="5" class="cart-submit" ng-click="ok()">
+                                Add to cart
+
+                            </button>
+
+                            <!-- Wishlist
+                            <div class="modal_pro_wishlist">
+                                <a href="wishlist.html" target="_blank"><i class="ti-heart"></i></a>
+                            </div>-->
+                            <!-- Compare
+                            <div class="modal_pro_compare">
+                                <a href="compare.html" target="_blank"><i class="ti-stats-up"></i></a>
+                            </div>-->
+                        </form>
+                        <div class="share_wf mt-30">
+                            <p>Share With Friend</p>
+                            <div class="_icon">
+                                
+
+                                <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://www.frontrowofficial.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+                                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="http://pinterest.com/pin/create/button/?url=https://www.frontrowofficial.com/"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                <a href="https://plus.google.com/share?url=https://www.frontrowofficial.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+
+        
+        <button class="btn btn-Red btn-white" type="button" ng-click="cancel()">Cancel</button>
+    </div>
+</script>
+<!-- ****** Quick View Modal Area End ****** -->
+
+<div class="container-fluid product-lable ng-scope" style="background-color: #77001f;" ng-show="isShow == &#39;Y&#39;">
+    <div class="row">
+
+        <div class="col-md-12 elementor-widget">
+            <div class="container">
+                <h1 class="elementor-heading-title elementor-size-default text-center mt-2">Purchase Products</h1>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section class="shop_grid_area section_padding_100 ng-scope">
+    <form class="m-t ng-pristine ng-valid" role="form">
+        <input name="__RequestVerificationToken" type="hidden" value="lDAhoP3ZgLq_URFSJ4CWrkF1XaSGjm76VIjdKBnDXI8WdM3LczDNn91uHzOGfNmlHN4-QHcHGpsSFyO2foEMnxYzwWf2bcakYXreVDBExpQ1">
+        <input id="antiForgeryToken" ng-model="antiForgeryToken" type="hidden" value="HS-mzJoo046bnqxVMd0EV0U6X9p5Ma_zSo2S3Mp7rXHBMeFppGXHLWFwLYuRaQWE1adHIudlN2HN3UY-eMPsNepMvSn1kn_f0ySwMuYvzCk1:TeDTyJsdH7Z79l3LuwGEhdodsd5JBwR0tzl5_f1rhBBj2iDmfDUjZ_3dGNpfD1MIkt-J2vt9kDK4gSPFxpS4eORooqsAEQ3VC1vBfMdVnbE1" class="ng-pristine ng-untouched ng-valid ng-not-empty">
+        
+
+        <div class="profile-border mb-4" style="padding: 20px 0px !important;" ng-show="isShow == &#39;Y&#39;">
+            
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="profile-circle">
+                            <img alt="profile image" src="./Frontrow - Publicshop_files/DefaultImage.png">
+                            <h2 class="text-center mt-0 mb-0">
+                                <b class="ng-binding">JASELLE CORPUZ</b>
+                            </h2>
+                            <p>Your Advertiser</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 mac-ml">
+
+                        <div class="elementor-widget-container elementor-widgett">
+                            <ul class="elementor-icon-list-items">
+                                <li class="elementor-icon-list-item">
+                                    <span class="elementor-icon-list-icon">
+                                        <i aria-hidden="true" class="fa fa-qrcode"></i>
+                                    </span>
+                                    <span class="elementor-icon-list-text ng-binding">Advertiser Unique ID : 7721548376203785</span>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                    <a href="https://frontrowofficial.com/" target="_blank" rel="nofollow">
+                                        <span class="elementor-icon-list-icon">
+                                            <i aria-hidden="true" class="fa fa-facebook-square"></i>
+                                        </span>
+                                        <span class="elementor-icon-list-text ng-binding">Advertiser FB Account :  </span>
+                                    </a>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                    <span class="elementor-icon-list-icon">
+                                        <i aria-hidden="true" class="fa fa-mobile"></i>
+                                    </span>
+                                    <span class="elementor-icon-list-text ng-binding">Advertiser Mobile # : +639175037942 </span>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        
+
+
+
+        <div class="container">
+            <div class="row">
+                
+
+
+
+
+
+
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="shop_grid_product_area">
+                        
+                        
+
+                        <div class="shop-float ng-hide" ng-show="(isShow == &#39;N&#39; || !memberShipStatus) &amp;&amp; cartCount &gt; 0">
+                            <a ui-sref="cart" class="btn btn-Red  btn-white" ng-click="confirm()" href="https://frontrowofficial.com/cart">CheckOut <span class="ng-binding">(0)</span></a>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="row">
+
+                            <!-- Single gallery Item -->
+                            <!-- ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20191101144632999.jpg" alt="Luxxe White">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe White</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 1,490.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 2980</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20191101144610952.jpg" alt="Luxxe Slim">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe Slim</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 1,490.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 2980</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20191101144543234.jpg" alt="Luxxe Renew">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe Renew</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 1,490.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 2980</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20191101144518839.jpg" alt="Luxxe Protect">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe Protect</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 500.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 1000</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_2019110114442664.jpg" alt="01 Skin Whitening Bar">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">01 Skin Whitening Bar</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 120.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 240</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20191101144443963.jpg" alt="02 Oatmeal Exfoliant Bar">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">02 Oatmeal Exfoliant Bar</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 120.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 240</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_2019110114450058.jpg" alt="03 Orange Papaya Bar">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">03 Orange Papaya Bar</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 120.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 240</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20200612023747508.jpg" alt="Luxxe White Reveal Instabright Body Creme - Spf 25">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe White Reveal Instabright Body Creme - Spf 25</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 944.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 1888</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20200612023458829.jpg" alt="Luxxe White Reveal Dynamic Duo Bb + Cc Hybrid Stick - SPF 50 PA+++ SHADE 00">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe White Reveal Dynamic Duo Bb + Cc Hybrid Stick - SPF 50 PA+++ SHADE 00</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 994.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 1988</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20200612023640486.jpg" alt="Luxxe White Reveal Dynamic Duo Bb + Cc Hybrid Stick - SPF 50 PA+++ SHADE 01">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe White Reveal Dynamic Duo Bb + Cc Hybrid Stick - SPF 50 PA+++ SHADE 01</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 994.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 1988</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20200612023703936.jpg" alt="Luxxe White Reveal Dynamic Duo Bb + Cc Hybrid Stick - SPF 50 PA+++ SHADE 02">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe White Reveal Dynamic Duo Bb + Cc Hybrid Stick - SPF 50 PA+++ SHADE 02</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 994.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 1988</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst --><div class="col-12 col-sm-6 col-lg-3 single_gallery_item wow fadeInUpBig mt-4 ng-scope" ng-repeat="prd in shopProductDetailsLst" data-wow-delay="0.2s">
+                                <!-- Product Image -->
+                                <div class="product-img">
+                                    <img src="./Frontrow - Publicshop_files/Image_20200612023726496.jpg" alt="Luxxe White Reveal Dynamic Duo Bb + Cc Hybrid Stick - SPF 50 PA+++ SHADE 03">
+                                    <div class="product-quicview">
+                                        <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)" class=""><i class="ti-plus"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+                                    
+
+
+
+
+                                    
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)"><p class="widget-title ng-binding">Luxxe White Reveal Dynamic Duo Bb + Cc Hybrid Stick - SPF 50 PA+++ SHADE 03</p></a>
+
+                                    
+                                    <h5 class="price ng-binding ng-hide" ng-show="false"> DISTRIBUTOR SPECIAL PRICE: PHP 994.00</h5>
+
+                                    <h5 class="price ng-binding" ng-show="true"> SUGGESTED RETAIL PRICE(SRP): PHP 1988</h5>
+                                    
+
+
+                                    
+                                    
+
+                                    <a href="https://frontrowofficial.com/#" ng-click="getForProduct(prd)">Product Details</a>
+                                    <!-- Add to Cart -->
+                                    <a href="https://frontrowofficial.com/#" class="add-to-cart-btn" ng-click="CreateCartList(prd)" ng-show="(isShow == &#39;N&#39; || !memberShipStatus)">
+                                        ADD TO CART
+
+                                        <!-- ngIf: findindex(prd) >= 0 -->
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div><!-- end ngRepeat: prd in shopProductDetailsLst -->
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+
+</div>
+
+
+    <section class="takeaction">
+        <div class="container">
+            <h1 style="margin-top: 5px;">"Experience the life you never had. The Frontrow Life"</h1>
+            <h3 class="mt-0" ng-hide="memberShipStatus || IsPOS==&#39;Y&#39;">Contact any Frontrow Distributor to be part of the most trusted company in Asia.</h3>
+        </div>
+    </section>
+
+    <!-- ****** Footer Area Start ****** -->
+    <footer class="footer_area">
+
+        <div class="container">
+
+            <div class="row header-footer">
+                <!-- Single Footer Area Start -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single_footer_area">
+                        <div class="footer-logo">
+                            <img src="./Frontrow - Publicshop_files/logo.png" alt="">
+                        </div>
+                        <div class="copywrite_text d-flex align-items-center">
+                            <p class="ng-binding">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright © 2021
+                                All rights reserved | 2018 FrontRow International
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Footer Area Start -->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="single_footer_area">
+                        <ul class="footer_widget_menu">
+                            <li class="nav-item ng-hide" ng-show="memberShipStatus"><a ui-sref="profile({ uniqueid: userUniqueId })" href="https://frontrowofficial.com/profile/">My Account</a></li>
+                            
+                            
+                            <li><a ui-sref="contact" href="https://frontrowofficial.com/contact">Contact</a></li>
+                            
+                            <li><a ui-sref="termsofservices" href="https://frontrowofficial.com/termsofservices">Terms &amp; Conditions</a></li>
+                            <li><a ui-sref="privacypolicy" href="https://frontrowofficial.com/privacypolicy">Privacy Policy</a></li>
+                            <li><a ui-sref="ethicalstandardandpolicy" href="https://frontrowofficial.com/ethicalstandardandpolicy">Ethical Standard &amp; Policy</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- Single Footer Area Start -->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="single_footer_area">
+                        <ul class="footer_widget_menu">
+
+                            
+                            <li><a ui-sref="about" href="https://frontrowofficial.com/about">About</a></li>
+                            
+                            
+                              
+                            <li><a ng-click="openFeedbackModal()">Feedback</a></li>
+                            <li class="nav-item" ng-hide="IsPOS==&#39;Y&#39;" ng-class="{ active: isActive(&#39;/sitemap&#39;)}"><a ui-sref="sitemap" href="https://frontrowofficial.com/sitemap">Site Map</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- Single Footer Area Start -->
+                <div class="col-12 col-lg-5 mac-ml">
+                    <div class="single_footer_area">
+                        <div class="footer_heading mb-30">
+                            <h6 style="font-weight:700; font-size:14px;color: #ff0200;">Subscribe to our newsletter</h6>
+                        </div>
+                        <div class="subscribtion_form">
+                            <form class="m-t ng-pristine ng-valid" role="form">
+                                <input type="text" name="email" id="Email" class="mail ng-pristine ng-untouched ng-valid ng-empty" placeholder="Your email here" ng-model="SubscribeEmail">
+                                <span style="color:red; float:left;" class="ng-binding"></span>
+                                <button type="button" class="submit btn-white" ng-click="Subscribe()">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+
+            <!-- Footer Bottom Area Start -->
+            <div class="footer_bottom_area">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer_social_area text-center">
+
+                            <a href="https://www.facebook.com/frontrowtv/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="mailto:frontrowphoff@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/company/frontrow-international" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCS64hZsyzcnTql85pRjpHXw/" target="_blank"> <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- New footer For checkout , Shop , Whitelable page -->
+            <div class="footer_bottomnew_area">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="footer_newwidget_menu text-center" id="bottom_links" style="display: none;">
+                            
+
+                            <li><a ui-sref="termsofservices" href="https://frontrowofficial.com/termsofservices">Terms &amp; Conditions</a></li>
+                            <li><a ui-sref="privacypolicy" href="https://frontrowofficial.com/privacypolicy">Privacy Policy</a></li>
+                            <li><a ui-sref="ethicalstandardandpolicy" href="https://frontrowofficial.com/ethicalstandardandpolicy">Ethical Standard &amp; Policy</a></li>
+
+                        </ul>
+                        <div class="copyright text-center">
+                            <p class="ng-binding">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright © 2021
+                                All rights reserved | 2018 FrontRow International
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="cookie-banner" style="display: none">
+            <p>
+                We use cookies to ensure that we give you the best experince on our website, if you continue to use this site we will assume that you are happy with it and agree to our
+                &nbsp;<a ui-sref="privacypolicy" href="https://frontrowofficial.com/privacypolicy">Privacy Policy</a>
+            </p>
+            <button type="button" class="btn btn-primary acceptcookie">I agree</button>
+            <button type="button" class="closeb">×</button>
+        </div>
+
+    </footer>
+    <!-- ****** Footer Area End ****** -->
+
+</div>
+
+
+<script type="text/ng-template" id="Feedback.html" class="ng-scope">
+    <form class="" role="form">
+        <input name="__RequestVerificationToken" type="hidden" value="HoJqghkazZxhLTl9VDzIVyie8deCiJ0Ys5TeeKp3HTfcPDfb-qZOQKSwD3FpLIOUh89jipzfvFjuoZif3WhsKPMO-qKeas5DfTtkD6Gl9141" />
+        <div class="modal-header">
+            <h3 id="modal-title" style="text-align:left;margin-top: 0px;">Feedback</h3>
+            <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close" ng-click="cancel()">
+                
+                <span aria-hidden="true">
+                    <img src="../Content/img/close3.png" />
+                </span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label  col-md-3 col-sm-4">Name<span class="red">*</span></label>
+                    <div class=" col-md-8 col-sm-8">
+                        <input type="text" class="form-control" ng-model="FeedbackName" id="FeedbackName" value="" name="feedbackName">
+                        <span style="color:red; float:left;">{{RequiredFeedbackName}}</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label  col-md-3 col-sm-4">Type<span class="red">*</span></label>
+                    <div class=" col-md-8 col-sm-8">
+                        <select data-ng-options="o.Type for o in lstFeedbackType track by o.ID" class="custom-select sources" ng-model="FeedbackType" id="feedbackType"></select>
+                        
+                        <span style="color:red; float:left;">{{RequiredFeedbackType}}</span>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label  col-md-3 col-sm-4">Email<span class="red">*</span></label>
+                    <div class=" col-md-8 col-sm-8">
+                        <input type="text" class="form-control" ng-model="FeedbackEmail" id="FeedbackEmail" value="" name="feedbackEmail">
+                        <span style="color:red; float:left;">{{RequiredFeedbackEmail}}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label  col-md-3 col-sm-4">Phone<span class="red">*</span></label>
+                    <div class=" col-md-8 col-sm-8">
+                        <input type="text" class="form-control" ng-model="FeedbackPhone" id="FeedbackPhone" value="" name="feedbackPhone" maxlength="10" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                        <span style="color:red; float:left;">{{RequiredFeedbackPhone}}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label  col-md-3 col-sm-4">Message<span class="red">*</span></label>
+                    <div class=" col-md-8 col-sm-8">
+                        <textarea cols="400" rows="7" class="form-control" ng-model="FeedbackeMessage" id="FeedbackeMessage" name="feedbackeMessage"></textarea>
+                        <span style="color:red; float:left;">{{RequiredFeedbackeMessage}}</span>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label  col-md-3 col-sm-4">Captcha<span class="red">*</span></label>
+                    <div class=" col-md-8 col-sm-8">
+                        
+                        <div vc-recaptcha
+                             key="'6Lc2F5gUAAAAAGKG7ayLoXfeFpGqG79qk8d5jmdU'"
+                             ng-model="myRecaptchaResponse"
+                             on-create="setWidgetId(widgetId)"
+                             on-success="setResponse(response)"
+                             on-expire="cbExpiration()">
+                        </div>
+                        <span style="color:red; float:left;">{{RequiredCaptcha}}</span>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-Red btn-white" ng-click="FeedBackCreateNew()">Send</button>
+            
+        </div>
+    </form>
+</script>
+
+
+
+<script type="text/ng-template" id="Subscribe.html" class="ng-scope">
+    <form class="m-t" role="form">
+        <input name="__RequestVerificationToken" type="hidden" value="a2dZ-TF11BclpPDumIMrH-ShnlosMqrjZ_quaBVLXflRgCeS7u8F99yaBaf6qtsU_y1UqXuGSqjLWFgzn8KdL7P1nxqWshw7WSxaMvTgRxM1" />
+        
+        
+        <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close" ng-click="cancel()" style="margin-top: -8px;">
+            
+            <span aria-hidden="true">
+                <img src="../Content/img/close3.png" />
+            </span>
+        </button>
+        
+
+        <div class="form-horizontal">
+            <div class="form-group">
+                <br />
+                
+                <h4 style="text-align: center;line-height: 26px;width:auto" class="col-md-12 col-12"> {{SubscribeForm}}</h4>
+
+                <br />
+            </div>
+        </div>
+
+
+        <div class="modal-footer">
+
+            <button type="button" class="btn btn-Red btn-white" data-dismiss="modal" ng-click="cancel()">Close</button>
+        </div>
+    </form>
+</script>
+
+
+<script type="text/ng-template" id="SelectCountry.html" class="ng-scope">
+    <form class="" role="form">
+        
+        <input name="__RequestVerificationToken" type="hidden" value="fWROTnyOab-wVzhrJV9cCSQFsymdtlJlN2TIwxRWw7CEA_absQPlVw9HLeRl41j36S3j2oRkepg26jQ7okqqK8VRvg_vEbIiQTO2jdeFJXE1" />
+
+        
+        
+        <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close" ng-click="cancel()">
+            
+            <span aria-hidden="true">
+                <img src="../Content/img/close3.png" />
+            </span>
+        </button>
+        
+        <div class="modal-body">
+            <div class="form-horizontal" style="text-align: center">
+                <div class=" col-md-12 mb-30">
+                    
+
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-4">Select Country</label>
+                    <div class=" col-md-8">
+                        
+                        <select name="countryId" id="countryId" class="custom-select sources" placeholder="Select Country"
+                                ng-model="countryId">
+                            <option ng-repeat="x in countryMasterList" ng-selected="x.CountryId == selectedContry" value="{{x.CountryId}}">{{x.CountryName}}</option>
+
+                        </select>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-Red btn-white" data-dismiss="modal" aria-label="Close" ng-click="cancel()">
+                
+                Save & Close
+            </button>
+        </div>
+
+        
+    </form>
+</script>
+</body></html>
